@@ -1,0 +1,73 @@
+wc -c out.tr
+wc -l out.tr
+wc out.tr
+wc -l out.tr
+
+ls \grep Filename.txt
+ls -l\more
+
+cat Filename.txt
+cat > Filename.txt
+
+grep -i "[file ke under ka word]" Filename.txt
+grep -c "[file ke under ka word]" Filename.txt
+grep -n "[file ke under ka word]" Filename.txt
+
+tr [:lower:] [:upper:] < Filename.txt
+tr [:upper:] [:lower:] < Filename.txt
+tr -d [:digit:] < Filename.txt
+tr -cd [:digit:] < Filename.txt
+
+echo Filename.txt
+echo "Class S1" >> Filename.txt
+
+sort Filename.txt
+sort -r Filename.txt
+sort -K 2 Filename.txt
+
+
+head Filename.txt
+tail Filename.txt
+tail n 2 Filename.txt
+head n 2 Filename.txt
+
+
+less -s Filename.txt
+less -F Filename.txt
+
+
+more -p Filename.txt
+more -s Filename.txt
+more -d Filename.txt
+more -p Filename.txt
+
+
+file -b Filename.txt
+file *
+file Pictures/*
+
+
+type -a pwd
+type -a cd
+type -t cd
+type -t while
+type -p dash
+
+
+cmp -i Filename1.txt Filename2.txt
+cmp -i 3 Filename1.txt Filename2.txt
+cmp -l Filename1.txt Filename2.txt
+
+find ~/desktop\ -type d
+file /home/lab1003/Demo1 -type d
+file ~ -name Filename.txt
+
+
+locate -c [.txt]*
+locate -i *Filename.txt*
+locate "*.txt" -n 20
+locate -b Filename.txt
+
+
+
+

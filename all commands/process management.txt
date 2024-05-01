@@ -1,0 +1,15 @@
+ps
+ps -ax
+ps -eux
+ps -ef
+ps -C firefox
+pstree -a
+pstree -p
+kill 9841 
+pkill 9841
+killall 9841
+xkill 9841
+xkill -all
+pgrep ssh
+pgrep ssh -d ' '
+pgrep ssh -l

@@ -1,0 +1,45 @@
+pagesize
+pagesize -f
+
+top
+
+sleep 300 &
+[1] 12768
+
+sleep 500 &
+[2] 12770
+
+jobs
+
+free 
+free -m
+free -h
+free -s 5 -c 3
+
+vmstat 5 3
+htop -c
+
+df
+du
+ps
+ps -ax
+ps -eux
+ps -ef
+ps -C firefox
+pstree
+pstree -a
+pstree -p
+kill
+ps -aux | grep screenshot
+kill 9841
+pkill 9841
+killall 9841
+xkill 9841
+xkill -all
+
+pgrep ssh
+pgrepssh -d' '
+
+ps
+
+
