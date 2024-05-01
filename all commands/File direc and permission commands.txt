@@ -1,0 +1,23 @@
+ls
+ls -l
+ls -a
+
+cd Desktop
+pwd -L
+pwd -P
+
+cat "filename"
+ca -n "filename"
+
+mkdir "filename"
+mkdir -v "filename"
+
+rmdir -v Foldername
+rmdir -v -p Folder1/Subfolder1
+
+mv originalfile renamedfile
+mv file1 Desktop
+
+chmod u+rwx [file_name]
+chmod u+rw,go+r [file_name]
+chmod go-w [file_name]

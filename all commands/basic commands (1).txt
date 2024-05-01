@@ -1,0 +1,26 @@
+Basic command :
+1) echo 
+2) clear
+3) exit
+4) date
+5) time
+6) uptime
+7) cal
+8) cat
+9) tty
+10) man
+11) which
+12) history
+13) pwd
+14) id
+15) whoami
+16) ping
+17) ifconfig
+18)pr
+19) lp
+20) lpr
+21) lpstat
+22) lprm
+23) lpq
+24) cancel
+25) mail
